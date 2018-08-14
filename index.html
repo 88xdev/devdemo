@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 
   <head>
@@ -9,7 +8,8 @@
     <title>BIT MTY</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
 
     <!-- Custom fonts for this template -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -21,6 +21,7 @@
 
     <!-- Custom styles for this template -->
     <link href="css/creative.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 
   </head>
 
@@ -53,40 +54,52 @@
     </nav>
 
     <header class="masthead text-center text-white d-flex">
-      <div class="container my-auto">
-        <div class="row">
-          <div class="col-lg-10 mx-auto">
+
+     <div id="carouselExampleIndicators" class="container carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="container carousel-inner  ">
+          <div class="carousel-item  active">    
             <h1 class="text-uppercase">
-              <strong>Your Favorite Source of Free Bootstrap Themes</strong>
+              <strong>BIT<br>MTY</strong>
             </h1>
             <hr>
+            <p class="text-faded">Te ayudamos a aterrizar tus ideas, asesorandote en como planificar, distribuir y corrdinar equipos de desarrollo.</p>
           </div>
-          <div class="col-lg-8 mx-auto">
-            <p class="text-faded mb-5">Start Bootstrap can help you build better websites using the Bootstrap CSS framework! Just download your template and start going, no strings attached!</p>
-            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
+          <div class="carousel-item">
+            <h1 class="text-uppercase">
+              <strong>BIT<br>MTY</strong>
+            </h1>
+            <hr>
+            <p class="text-faded">Te ayudamos a aterrizar tus ideas, asesorandote en como planificar, distribuir y corrdinar equipos de desarrollo.</p>
+          </div>
+          <div class="carousel-item">
+            <h1 class="text-uppercase">
+              <strong>BIT<br>MTY</strong>
+            </h1>
+            <hr>
+            <p class="text-faded">Te ayudamos a aterrizar tus ideas, asesorandote en como planificar, distribuir y corrdinar equipos de desarrollo.</p>
           </div>
         </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
     </header>
-
-    <section class="bg-primary" id="about">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto text-center">
-            <h2 class="section-heading text-white">We've got what you need!</h2>
-            <hr class="light my-4">
-            <p class="text-faded mb-4">Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!</p>
-            <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Get Started!</a>
-          </div>
-        </div>
-      </div>
-    </section>
 
     <section id="services">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading">At Your Service</h2>
+            <h2 class="section-heading">Mira en que te podemos ayudarS</h2>
             <hr class="my-4">
           </div>
         </div>
@@ -96,29 +109,29 @@
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
               <i class="fa fa-4x fa-diamond text-primary mb-3 sr-icons"></i>
-              <h3 class="mb-3">Sturdy Templates</h3>
-              <p class="text-muted mb-0">Our templates are updated regularly so they don't break.</p>
+              <h3 class="mb-3">Conceptualización de Ideas IT</h3>
+              <p class="text-muted mb-0">Te ayudamos a comunicar y expresar tu idea con especificaciones técnicas.</p>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
               <i class="fa fa-4x fa-paper-plane text-primary mb-3 sr-icons"></i>
-              <h3 class="mb-3">Ready to Ship</h3>
-              <p class="text-muted mb-0">You can use this theme as is, or you can make changes!</p>
+              <h3 class="mb-3">Imagen e identidad grafica</h3>
+              <p class="text-muted mb-0">Solucionamos en gran parte las necesidades graficas visuales y multimedia que requieras para impulsar tu idea.</p>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
               <i class="fa fa-4x fa-newspaper-o text-primary mb-3 sr-icons"></i>
-              <h3 class="mb-3">Up to Date</h3>
-              <p class="text-muted mb-0">We update dependencies to keep things fresh.</p>
+              <h3 class="mb-3">Escalabilidad de concepto</h3>
+              <p class="text-muted mb-0">Supera las expectativas de tus ideas, crece al ritmo de ella y conviertela en lo mejor que pueda ser con la correcta orientación.</p>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
               <i class="fa fa-4x fa-heart text-primary mb-3 sr-icons"></i>
-              <h3 class="mb-3">Made with Love</h3>
-              <p class="text-muted mb-0">You have to make your websites with love these days!</p>
+              <h3 class="mb-3">Consultoría sobre producción 3D y motion graphics</h3>
+              <p class="text-muted mb-0">Organiza, crea y genera guiones para tus producciones, control de grabaciones y las tareas envueltas en la producción de contenido digital</p>
             </div>
           </div>
         </div>
@@ -221,19 +234,11 @@
         </div>
       </div>
     </section>
-
-    <section class="bg-dark text-white">
-      <div class="container text-center">
-        <h2 class="mb-4">Free Download at Start Bootstrap!</h2>
-        <a class="btn btn-light btn-xl sr-button" href="http://startbootstrap.com/template-overviews/creative/">Download Now!</a>
-      </div>
-    </section>
-
     <section id="contact">
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto text-center">
-            <h2 class="section-heading">Let's Get In Touch!</h2>
+            <h2 class="section-heading">Entra en contacto con nosotros</h2>
             <hr class="my-4">
             <p class="mb-5">Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
           </div>
@@ -264,7 +269,11 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/creative.min.js"></script>
-
+    <script>
+      $(document).ready(function() {
+        $('.carousel').carousel()
+      });
+    </script>
   </body>
 
 </html>
