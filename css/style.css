@@ -1,5 +1,14 @@
 .carousel-item{
     max-width: 2048px;
-    padding-top: 150px;
+    padding-top: 200px;
 }
 
+.centered{
+    text-align: justify;
+    -moz-text-align-last: center;
+    text-align-last: center;
+}
+
+.p-0{
+    padding-top: 100px;
+}

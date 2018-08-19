@@ -170,7 +170,7 @@ img::-moz-selection {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
- background-color: #fff;
+  background-color: #fff;
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -289,25 +289,9 @@ header.masthead p {
 .btn {
   font-weight: 700;
   text-transform: uppercase;
-  border: none;
-  border-radius: 300px;
   font-family: 'Press Start 2P', cursive;
 }
 
 .btn-xl {
   padding: 1rem 2rem;
-}
-
-.btn-primary {
-  background-color:  #303030;
-  border-color:  #303030;
-}
-
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  color: #fff;
-  background-color: #ee4b28 !important;
-}
-
-.btn-primary:active, .btn-primary:focus {
-  box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
 }
