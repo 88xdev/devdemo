@@ -1,0 +1,119 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 02/05/2017 09:16
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-001-instagram:before { content: "\f100"; }
+.flaticon-002-google-plus:before { content: "\f101"; }
+.flaticon-003-twitter:before { content: "\f102"; }
+.flaticon-004-linkedin:before { content: "\f103"; }
+.flaticon-005-facebook:before { content: "\f104"; }
+.flaticon-006-www:before { content: "\f105"; }
+.flaticon-007-location:before { content: "\f106"; }
+.flaticon-008-building:before { content: "\f107"; }
+.flaticon-009-home:before { content: "\f108"; }
+.flaticon-010-at-sign:before { content: "\f109"; }
+.flaticon-011-web:before { content: "\f10a"; }
+.flaticon-012-mail:before { content: "\f10b"; }
+.flaticon-013-send:before { content: "\f10c"; }
+.flaticon-014-write:before { content: "\f10d"; }
+.flaticon-015-note:before { content: "\f10e"; }
+.flaticon-016-share:before { content: "\f10f"; }
+.flaticon-017-chat:before { content: "\f110"; }
+.flaticon-018-happy:before { content: "\f111"; }
+.flaticon-019-info:before { content: "\f112"; }
+.flaticon-020-typing:before { content: "\f113"; }
+.flaticon-021-contact-list:before { content: "\f114"; }
+.flaticon-022-fax:before { content: "\f115"; }
+.flaticon-023-phone:before { content: "\f116"; }
+.flaticon-024-24-hours:before { content: "\f117"; }
+.flaticon-025-phone-call:before { content: "\f118"; }
+.flaticon-026-message:before { content: "\f119"; }
+.flaticon-027-mobile-phone:before { content: "\f11a"; }
+.flaticon-028-notice:before { content: "\f11b"; }
+.flaticon-029-search:before { content: "\f11c"; }
+.flaticon-030-profile:before { content: "\f11d"; }
+.flaticon-031-man-1:before { content: "\f11e"; }
+.flaticon-032-man:before { content: "\f11f"; }
+.flaticon-033-woman-1:before { content: "\f120"; }
+.flaticon-034-woman:before { content: "\f121"; }
+.flaticon-035-video-call:before { content: "\f122"; }
+.flaticon-036-delete:before { content: "\f123"; }
+.flaticon-037-add:before { content: "\f124"; }
+.flaticon-038-group:before { content: "\f125"; }
+.flaticon-039-friend:before { content: "\f126"; }
+.flaticon-040-contact:before { content: "\f127"; }
+    
+    $font-Flaticon-001-instagram: "\f100";
+    $font-Flaticon-002-google-plus: "\f101";
+    $font-Flaticon-003-twitter: "\f102";
+    $font-Flaticon-004-linkedin: "\f103";
+    $font-Flaticon-005-facebook: "\f104";
+    $font-Flaticon-006-www: "\f105";
+    $font-Flaticon-007-location: "\f106";
+    $font-Flaticon-008-building: "\f107";
+    $font-Flaticon-009-home: "\f108";
+    $font-Flaticon-010-at-sign: "\f109";
+    $font-Flaticon-011-web: "\f10a";
+    $font-Flaticon-012-mail: "\f10b";
+    $font-Flaticon-013-send: "\f10c";
+    $font-Flaticon-014-write: "\f10d";
+    $font-Flaticon-015-note: "\f10e";
+    $font-Flaticon-016-share: "\f10f";
+    $font-Flaticon-017-chat: "\f110";
+    $font-Flaticon-018-happy: "\f111";
+    $font-Flaticon-019-info: "\f112";
+    $font-Flaticon-020-typing: "\f113";
+    $font-Flaticon-021-contact-list: "\f114";
+    $font-Flaticon-022-fax: "\f115";
+    $font-Flaticon-023-phone: "\f116";
+    $font-Flaticon-024-24-hours: "\f117";
+    $font-Flaticon-025-phone-call: "\f118";
+    $font-Flaticon-026-message: "\f119";
+    $font-Flaticon-027-mobile-phone: "\f11a";
+    $font-Flaticon-028-notice: "\f11b";
+    $font-Flaticon-029-search: "\f11c";
+    $font-Flaticon-030-profile: "\f11d";
+    $font-Flaticon-031-man-1: "\f11e";
+    $font-Flaticon-032-man: "\f11f";
+    $font-Flaticon-033-woman-1: "\f120";
+    $font-Flaticon-034-woman: "\f121";
+    $font-Flaticon-035-video-call: "\f122";
+    $font-Flaticon-036-delete: "\f123";
+    $font-Flaticon-037-add: "\f124";
+    $font-Flaticon-038-group: "\f125";
+    $font-Flaticon-039-friend: "\f126";
+    $font-Flaticon-040-contact: "\f127";
